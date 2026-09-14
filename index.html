@@ -246,6 +246,14 @@ body{
 .cxmeta s{display:block;text-decoration:none;font-size:10.5px;line-height:1.4;
   color:var(--g3);overflow-wrap:anywhere;}
 .cxc:hover .cxmeta em,.cxc:hover .cxmeta s,.cxc:hover .cxthumb i{color:var(--g1);}
+/* ---- 크게 보이는 카드 ---- */
+.cxc.big{grid-column:1 / -1;flex-direction:column;align-items:stretch;gap:0;padding:0;}
+.cxc.big .cxthumb{width:100%;height:150px;border:none;border-bottom:1px solid currentColor;}
+.cxc.big .cxthumb i{font-size:13px;}
+.cxc.big .cxmeta{padding:11px 13px 13px;}
+.cxc.big .cxmeta em{font-size:8.5px;}
+.cxc.big .cxmeta b{font-size:17px;margin:4px 0 3px;}
+.cxc.big .cxmeta s{font-size:11.5px;}
 /* ============ 좁은 화면 : 구성은 PC와 같고 크기만 줄입니다
    ✏️ 더 작게 하려면 아래 숫자들을 낮추세요 ============ */
 @media (max-width:560px){
@@ -362,6 +370,11 @@ body{
   .cxbar{font-size:8px;padding:11px 0 8px;}
   .cxc{padding:8px;gap:9px;}
   .cxthumb{width:48px;height:48px;}
+  .cxc.big{padding:0;}
+  .cxc.big .cxthumb{width:100%;height:115px;}
+  .cxc.big .cxmeta{padding:9px 11px 11px;}
+  .cxc.big .cxmeta b{font-size:14.5px;}
+  .cxc.big .cxmeta s{font-size:10.5px;}
   .cxmeta em{font-size:7.5px;}
   .cxmeta b{font-size:12px;}
   .cxmeta s{font-size:9.5px;}
@@ -568,7 +581,7 @@ body{
         </div>
         <div class="clrow">
           <div class="cltitle"><b>세라픽스</b><s>SERAPHIX</s></div>
-          <div class="clchips"><span>테오</span><span>이브</span><span>에테르</span><span>쏜즈</span><span>넵튠</span><span>어비스</span></div>
+          <div class="clchips"><span>어비스</span><span>테오</span><span>이브</span><span>에테르</span><span>쏜즈</span><span>넵튠</span></div>
           <div class="clnum"></div>
         </div>
         <div class="clrow">
@@ -810,14 +823,16 @@ document.querySelectorAll('.copy').forEach(function(btn){
    src  = 이미지 경로 (html 파일 옆에 img 폴더를 만들고 넣으세요. 없으면 번호만 표시)
    url  = 이동할 주소                                                          */
 var CONNECTIONS = [
-  { name:"#DOVSI",          kr:"Afebrile, but warm",            tag:"CONNECTION 01", src:"img/rel01.jfif", url:"https://dove.luv3r.me/" },
-  { name:"PASHASHA",        kr:"Pavel belov \u2661 Isha Rnard", tag:"CONNECTION 02", src:"img/rel02.png",  url:"https://pashasha.tistory.com/3" },
-  { name:"SWEET PARADISE",  kr:"안 되면 내 작은 재앙, 내 모든 것.", tag:"CONNECTION 03", src:"img/rel03.png",  url:"https://sweet-paradise.luv3r.me/" },
-  { name:"Hazed",           kr:"Eternal My Breath",             tag:"CONNECTION 04", src:"img/rel04.jfif",  url:"https://hazed.luv3r.me/" },
-  { name:"🖤JG💙💙TG🤍",      kr:"@seojaehun_hantaehwi",          tag:"CONNECTION 05", src:"img/rel05.jfif",  url:"https://seojaehun_hantaehwi.luv3r.me/" },
-  { name:"❤︎ Verse1",       kr:"The Only Sea in the Universe",  tag:"CONNECTION 06", src:"img/rel06.jfif",  url:"https://commercialblue.luv3r.me/" },
-  { name:"민정하준",          kr:"당신의 외로움이 끝나는 그날까지",    tag:"CONNECTION 07", src:"img/rel07.jfif", url:"https://yeonha-jun.luv3r.me/" },
-  { name:"79",              kr:"대위 서이현 x 소위 정스텔라",       tag:"CONNECTION 08", src:"img/rel08.jfif", url:"https://seoihyeon.love" }
+  { big:true, name:"Ur3lysion ", kr:"숨이 멎을 때 쯤엔 걸음을 멈출까", tag:"CONNECTION 01", src:"img/rel01.jfif", url:"https://ion.luv3r.me/" },
+  { big:true, name:"상록 (常綠)",  kr:"고요를 품은 새벽빛", tag:"CONNECTION 02", src:"img/rel02.jfif",  url:"https://afterstillness.luv3r.me/" },
+  { big:true, name:"EVER",  kr:"Never-Ending Curtain Call", tag:"CONNECTION 03", src:"img/rel03.jfif",  url:"https://ethan.naru.pub/" },
+  { name:"#DOVSI",          kr:"Afebrile, but warm",            tag:"CONNECTION 04", src:"img/rel100.jfif", url:"https://dove.luv3r.me/" },
+  { name:"PASHASHA",        kr:"Pavel belov \u2661 Isha Rnard", tag:"CONNECTION 05", src:"img/rel101.png",  url:"https://pashasha.tistory.com/3" },
+  { name:"Hazed",           kr:"Eternal My Breath",             tag:"CONNECTION 06", src:"img/rel102.jfif",  url:"https://hazed.luv3r.me/" },
+  { name:"🖤JG💙💙TG🤍",      kr:"@seojaehun_hantaehwi",          tag:"CONNECTION 07", src:"img/rel103.jfif",  url:"https://seojaehun_hantaehwi.luv3r.me/" },
+  { name:"❤︎ Verse1",       kr:"The Only Sea in the Universe",  tag:"CONNECTION 08", src:"img/rel104.jfif",  url:"https://commercialblue.luv3r.me/" },
+  { name:"민정하준",          kr:"당신의 외로움이 끝나는 그날까지",    tag:"CONNECTION 09", src:"img/rel105.jfif", url:"https://yeonha-jun.luv3r.me/" },
+  { name:"79",              kr:"대위 서이현 x 소위 정스텔라",       tag:"CONNECTION 10", src:"img/rel106.jfif", url:"https://seoihyeon.love" }
 ];
 
 (function(){
@@ -827,7 +842,7 @@ var CONNECTIONS = [
   CONNECTIONS.forEach(function(c, i){
     var no = String(i+1).padStart(2,'0');
     var a = document.createElement('a');
-    a.className = 'cxc';
+    a.className = c.big ? 'cxc big' : 'cxc';
     a.href = /^https?:\/\//.test(c.url || '') ? c.url : 'https://' + (c.url || '');
     a.target = '_blank';
     a.rel = 'noopener';
