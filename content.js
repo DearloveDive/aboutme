@@ -216,8 +216,8 @@ window.SITE = {
       image: "images/prompt-null.jpg",
       parts: [
         ["Appearance", "외형",
-          "boy, bishounen,male, toned male, blunts,pale skin,black hair, short hair,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,-2:: hime cut,slicked back hair,parted hair,red eye,hime cut,long hair::,tall, slender,"],
-        ["Outfit", "의상", "black coat, black harness, white knitwear, black cross earring on right ear, black gloves,"],
+          "boy, bishounen,male, toned male, blunts,pale skin,black hair, short hair,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,-2:: hime cut,slicked back hair,parted hair,red eye,hime cut,long hair::,tall, slender,black cross earring on right ear,tongue piercing(자꾸 입벌리면 빼주세요),"],
+        ["Outfit", "의상", "black coat, black harness, white knitwear, black gloves,"],
       ],
     },
     {
@@ -226,8 +226,8 @@ window.SITE = {
       image: "images/prompt-null-f.jpg",
       parts: [
         ["Appearance", "외형",
-          "girl, bishoujo,pale skin,black hair, hushcut,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,skimpy, skindentation, slender,cleavage, huge breast, -2:: hime cut, long hair, twintail,slicked back hair::,"],
-        ["Outfit", "의상", "black cross earring on right ear,-black coat, black harness, white knitwear ,black gloves,short black pants, black stockings,Black Pantyhose , "],
+          "girl, bishoujo,pale skin,black hair, hushcut,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,skimpy, skindentation, slender,cleavage, huge breast, -2:: hime cut, long hair, twintail,slicked back hair::,tongue piercing(자꾸 입벌리면 빼주세요),black cross earring on right ear,"],
+        ["Outfit", "의상", "black coat, black harness, white knitwear ,black gloves,short black pants, black stockings,Black Pantyhose , "],
       ],
     },
     {
