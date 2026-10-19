@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VINCERE : the eclipse</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="apple-touch-icon" href="images/favicon-180.png">
+  <meta name="theme-color" content="#0a0809">
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="preload" as="image" href="images/logo.webp">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- 메인 첫 화면 (3D 망점 달) -->
+  <section class="stage" id="stage" aria-label="첫 화면"></section>
+
+  <!-- 스크롤하면 아래에서 올라오는 붉은 화면 (심장 + 배너) -->
+  <section class="cor" id="cor" aria-label="프롬프트 목록" aria-hidden="true"></section>
+
+  <!-- 배너를 누르면 뜨는 상세창 -->
+  <div class="win" id="win" role="dialog" aria-modal="true" hidden></div>
+
+  <!-- 시작 연출: 검은 화면 속 개기일식 코로나 -->
+  <div class="open" id="open" aria-hidden="true">
+    <div class="open__fog"><i></i><i></i><i></i></div>
+    <div class="eclipse"><i class="eclipse__rays"></i><i class="eclipse__corona"></i><i class="eclipse__disc"></i></div>
+  </div>
+
+  <!-- 급하게 여러 번 누를 때 지지직 노이즈 -->
+  <canvas class="noise" id="noise" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- 내용은 content.js, 동작은 app.js -->
+  <script src="content.js"></script>
+  <script src="assets/moon-sphere.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
