@@ -216,8 +216,8 @@ window.SITE = {
       image: "images/prompt-null.jpg",
       parts: [
         ["Appearance", "외형",
-          "boy, bishounen,male, toned male, blunts,pale skin,black hair, short hair,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,-2:: hime cut,slicked back hair,parted hair,red eye,hime cut,long hair::,tall, slender,black cross earring on right ear,tongue piercing(자꾸 입벌리면 빼주세요),"],
-        ["Outfit", "의상", "black coat, black harness, white knitwear, black gloves,"],
+          "boy, bishounen,male, toned male, blunts,pale skin,black hair, short hair,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,-2:: hime cut,slicked back hair,parted hair,red eye,hime cut,long hair::,tall, slender,"],
+        ["Outfit", "의상", "black coat, black harness, white knitwear, black cross earring on right ear, black gloves,"],
       ],
     },
     {
@@ -226,8 +226,8 @@ window.SITE = {
       image: "images/prompt-null-f.jpg",
       parts: [
         ["Appearance", "외형",
-          "girl, bishoujo,pale skin,black hair, hushcut,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,skimpy, skindentation, slender,cleavage, huge breast, -2:: hime cut, long hair, twintail,slicked back hair::,tongue piercing(자꾸 입벌리면 빼주세요),black cross earring on right ear,"],
-        ["Outfit", "의상", "black coat, black harness, white knitwear ,black gloves,short black pants, black stockings,Black Pantyhose , "],
+          "girl, bishoujo,pale skin,black hair, hushcut,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,skimpy, skindentation, slender,cleavage, huge breast, -2:: hime cut, long hair, twintail,slicked back hair::,"],
+        ["Outfit", "의상", "black cross earring on right ear,-black coat, black harness, white knitwear ,black gloves,short black pants, black stockings,Black Pantyhose , "],
       ],
     },
     {
@@ -251,7 +251,7 @@ window.SITE = {
     rows: [
     ["피어리스", ["플릭", "블랑", "제스테", "도브", "레기온", "언커먼", "지젤", "일레이", "헤이즈", "타이탄", "머스탱", "버닝","코튼"]],
     ["아크", ["휴고", "애쉬", "코드", "에덴", "윈터", "해일", "헬리오스", "카르마", "신드롬"]],
-    ["세라픽스", ["어비스", "테오", "이브", "에테르", "카니발", "넵튠", "곽두철", "아르카나", "오비탈", "루미에르", "버스데이", "캐리온"]],
+    ["세라픽스", ["어비스", "테오", "이브", "에테르", "카니발", "넵튠", "곽두철", "아르카나", "오비탈", "루미에르", "버스데이","이카로스","클러치","스펙터","R","미노스" ]],
     ["멈머버스", ["아르비테르", "키츠네", "에단", "갬블러", "파놉테스", "헌터"]],
     ["테미스", ["디에고", "주지호", "서도혁", "카즈마", "레비", "N", "아르준 프라카시","린쉬한"]],
     ["혹한기", ["구예천", "제로", "파벨"]],
@@ -266,10 +266,12 @@ window.SITE = {
     ["애쉬폴 프로토콜", ["베스퍼"]],
     ["블루 페어리",  ["건전한 닉네임 28"]],
     ["천축!서유기전!!!",  ["삼장"]],
+    ["조선최고 사랑꾼",  ["안죽림"]],
     ["판타스 마고리아",  ["ALL"]],
     ["엔트로피아",  ["ALL"]],
-    ["스타레인",["R"]],
+    ["스타레인",["R","J"]],
     ["EVE", ["천유진"]],
+    ["트리스탄/프랙쳐",  ["핀셔"]],
     ["@ohnyu", ["차재현","서유준"]],
     ["@Kokori",  ["ALL"]],
     ["@OwOo",  ["연하준"]],
@@ -277,6 +279,7 @@ window.SITE = {
     ["@호씨나",  ["기환석"]],
     ["@잼아귀",  ["이강리"]],
     ["@비타",  ["자오 얀"]],
+    ["@ d4ngyl",  ["한승현"]],
     ]
   },
 
