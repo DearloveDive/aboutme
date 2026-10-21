@@ -133,21 +133,21 @@ window.SITE = {
     blocks: [
       { title: "Must read", ko: "필독 · 겹드림", style: "must", items: [
         "극온리입니다. 겹치는 드림(겹드)을 보는 것을 많이 힘들어합니다.",
-        "겹드는 보이는 대로 **전부** 블락합니다. 겹드분께 유감이 있어서가 아니라, 보는 것만으로도 큰 데미지를 받기 때문입니다...",
+        "겹드는 보이는 대로 **전부** 블락합니다. 겹드분께 유감이 있어서가 아니라, 보는 것만으로도 큰 데미지를 받기 때문이에요.",
         "겹드를 팔로우하고 계신다면 팔로우를 재고해 주세요.",
-        "다이브 드림 후발주자나 자연발생이 생기면, 그분과 저 중 한쪽을 반드시 정리해 주세요.",
+        "다이브 드림 후발주자나 자연발생이 생기면, 그분과 저 중 한쪽을 정리해 주세요.",
         "겹드림을 **한 타임라인에 함께 두지 말아 주세요.**",
-        "재연결 가능합니다. 단, 겹드림을 정리하신 경우에만 받습니다.",
+        "재연결은 가능합니다. 단, 겹드림을 정리하신 경우에만 받습니다.",
       ]},
       { title: "Notice", ko: "주의사항", items: [
         "1t1d 계정으로, 같은 드림은 더 모시지 않습니다.",
         "저에 대한 퍼날 · 뒷담 등 부정적인 이야기는 전달해 주지 않으셔도 괜찮습니다.",
-        "멘탈이 많이 약한 편이라, 듣는 것조차 힘들어서 그러니 양해 부탁드립니다.",
+        "멘탈이 많이 약한 편이라, 그런 이야기는 듣는 것조차 힘들어합니다.",
       ]},
       { title: "NG", ko: "하지 말아 주세요", style: "ng", items: [
         "페소 따라 하기",
         "허위 사실 유포",
-        "저에게서 영향 일절 받지 말아주세요.",
+        "저에게서 영향을 받는 것 — 저를 참고하거나 닮아가지 말아 주세요.",
       ]},
     ],
   },
@@ -216,8 +216,8 @@ window.SITE = {
       image: "images/prompt-null.jpg",
       parts: [
         ["Appearance", "외형",
-          "boy, bishounen,male, toned male, blunts,pale skin,black hair, short hair,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,black cross earring on right ear,-2:: hime cut,slicked back hair,parted hair,red eye,hime cut,long hair::,tall, slender, tongue piercing(입을 너무 벌리는 경우 빼주세요),"],
-        ["Outfit", "의상", "black coat, black harness, white knitwear, black gloves,"],
+          "boy, bishounen,male, toned male, blunts,pale skin,black hair, short hair,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,-2:: hime cut,slicked back hair,parted hair,red eye,hime cut,long hair::,tall, slender,"],
+        ["Outfit", "의상", "black coat, black harness, white knitwear, black cross earring on right ear, black gloves,"],
       ],
     },
     {
@@ -226,8 +226,8 @@ window.SITE = {
       image: "images/prompt-null-f.jpg",
       parts: [
         ["Appearance", "외형",
-          "girl, bishoujo,pale skin,black hair, hushcut,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,black cross earring on right ear, skimpy, skindentation, slender,cleavage, huge breast, -2:: hime cut, long hair, twintail,slicked back hair::,tongue piercing(입을 너무 벌리는 경우 빼주세요),"],
-        ["Outfit", "의상", "black coat, black harness, white knitwear ,black gloves,short black pants, black stockings,Black Pantyhose , "],
+          "girl, bishoujo,pale skin,black hair, hushcut,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,skimpy, skindentation, slender,cleavage, huge breast, -2:: hime cut, long hair, twintail,slicked back hair::,"],
+        ["Outfit", "의상", "black cross earring on right ear,-black coat, black harness, white knitwear ,black gloves,short black pants, black stockings,Black Pantyhose , "],
       ],
     },
     {
@@ -250,10 +250,10 @@ window.SITE = {
     note: "아래 캐릭터들과는 겹치지 않도록 배려하고 있어요.",
     rows: [
     ["피어리스", ["플릭", "블랑", "제스테", "도브", "레기온", "언커먼", "지젤", "일레이", "헤이즈", "타이탄", "머스탱", "버닝","코튼"]],
-    ["아크", ["휴고", "애쉬", "코드", "에덴", "윈터", "해일", "헬리오스", "신드롬"]],
-    ["세라픽스", ["어비스", "테오", "이브", "에테르", "카니발", "넵튠", "곽두철", "아르카나", "오비탈", "루미에르", "버스데이","이카로스","클러치","스펙터","R","미노스","마르카" ]],
+    ["아크", ["휴고", "애쉬", "코드", "에덴", "윈터", "해일", "헬리오스", "카르마", "신드롬"]],
+    ["세라픽스", ["어비스", "테오", "이브", "에테르", "카니발", "넵튠", "곽두철", "아르카나", "오비탈", "루미에르", "버스데이", "캐리온"]],
     ["멈머버스", ["아르비테르", "키츠네", "에단", "갬블러", "파놉테스", "헌터"]],
-    ["테미스", ["디에고", "주지호", "서도혁", "카즈마", "레비", "N", "아르준 프라카시","린쉬한","시우하"]],
+    ["테미스", ["디에고", "주지호", "서도혁", "카즈마", "레비", "N", "아르준 프라카시","린쉬한"]],
     ["혹한기", ["구예천", "제로", "파벨"]],
     ["애프터메스", ["9"]],
     ["ACP:RE", ["찰리"]],
@@ -266,24 +266,17 @@ window.SITE = {
     ["애쉬폴 프로토콜", ["베스퍼"]],
     ["블루 페어리",  ["건전한 닉네임 28"]],
     ["천축!서유기전!!!",  ["삼장"]],
-    ["조선최고 사랑꾼",  ["안죽림"]],
     ["판타스 마고리아",  ["ALL"]],
     ["엔트로피아",  ["ALL"]],
-    ["스타레인",["J"]],
-    ["판테온",  ["카타르시스"]],
+    ["스타레인",["R"]],
     ["EVE", ["천유진"]],
-    ["트리스탄/프랙쳐",  ["핀셔"]],
-    ["언더커버", ["윤희수"]],
-    ["퍼펙트 게임", ["아사히나 타이가"]],
-    ["@ohnyu", ["차재현","서유준,토시유키"]],
+    ["@ohnyu", ["차재현","서유준"]],
     ["@Kokori",  ["ALL"]],
     ["@OwOo",  ["연하준"]],
     ["@8dear",  ["이태수"]],
     ["@호씨나",  ["기환석"]],
     ["@잼아귀",  ["이강리"]],
     ["@비타",  ["자오 얀"]],
-    ["@d4ngyl",  ["한승현"]],
-    ["@sugar",  ["사카이 리츠"]],
     ]
   },
 
@@ -291,7 +284,7 @@ window.SITE = {
      [이름, 주소, 배너 이미지(없으면 "")]  — 배너 이미지는 정사각형으로, images/banners/ 폴더에 넣으세요. */
   banners: [
     ["배너 이름 1", "https://example.com/", ""],
-    ["Night Flight", "https://palely.me/@starl1t/#home", "night-flight.png"],
+    ["배너 이름 2", "https://example.com/", ""],
     ["배너 이름 3", "https://example.com/", ""],
   ],
 
@@ -299,8 +292,9 @@ window.SITE = {
      [이미지 위에 쓸 이름, 짧은 설명, 주소, 가로로 긴 배너 이미지(없으면 "")]
      이미지는 images/links/ 폴더에 넣으세요 (가로 4 : 세로 1 권장). */
   links: [
-    ["Tistory", "OOC · 로그 백업", "https://dive.tistory.com/", "images/links/postype.jpg"],
-    ["Postype", "배포 사이트 백업", "https://www.postype.com/@foreveryones", ""],
+    ["X", "일상 · 연성", "https://x.com/", "images/links/x.jpg"],
+    ["Postype", "글 · 기록", "https://www.postype.com/", "images/links/postype.jpg"],
+    ["Mail", "연락", "mailto:example@example.com", ""],
   ],
 
   /* ── 오른쪽 아래 대화창 ─────────────────────────────
@@ -309,7 +303,7 @@ window.SITE = {
      "[사진] 설명" → 사진 첨부처럼,  "[부재중 전화 1통]" 같은 [ ] 줄 → 알림처럼,  "( )" 로 감싼 줄 → 행동 묘사처럼 보여요. */
   chat: {
     title: "Secure channel",
-    dive: { name: "Dive", nick: "미친개" },
+    dive: { name: "Dive", nick: "미친개(내 거)" },
     null: { name: "Null", nick: "내 고양이" },
     logs: [
     [
