@@ -291,7 +291,7 @@ window.SITE = {
      [이름, 주소, 배너 이미지(없으면 "")]  — 배너 이미지는 정사각형으로, images/banners/ 폴더에 넣으세요. */
   banners: [
     ["배너 이름 1", "https://example.com/", ""],
-    ["배너 이름 2", "https://example.com/", ""],
+    ["Night Flight", "https://palely.me/@starl1t/#home", "night-flight.png"],
     ["배너 이름 3", "https://example.com/", ""],
   ],
 
