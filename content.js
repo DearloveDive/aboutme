@@ -133,21 +133,21 @@ window.SITE = {
     blocks: [
       { title: "Must read", ko: "필독 · 겹드림", style: "must", items: [
         "극온리입니다. 겹치는 드림(겹드)을 보는 것을 많이 힘들어합니다.",
-        "겹드는 보이는 대로 **전부** 블락합니다. 겹드분께 유감이 있어서가 아니라, 보는 것만으로도 큰 데미지를 받기 때문이에요.",
+        "겹드는 보이는 대로 **전부** 블락합니다. 겹드분께 유감이 있어서가 아니라, 보는 것만으로도 큰 데미지를 받기 때문입니다...",
         "겹드를 팔로우하고 계신다면 팔로우를 재고해 주세요.",
-        "다이브 드림 후발주자나 자연발생이 생기면, 그분과 저 중 한쪽을 정리해 주세요.",
+        "다이브 드림 후발주자나 자연발생이 생기면, 그분과 저 중 한쪽을 반드시 정리해 주세요.",
         "겹드림을 **한 타임라인에 함께 두지 말아 주세요.**",
-        "재연결은 가능합니다. 단, 겹드림을 정리하신 경우에만 받습니다.",
+        "재연결 가능합니다. 단, 겹드림을 정리하신 경우에만 받습니다.",
       ]},
       { title: "Notice", ko: "주의사항", items: [
         "1t1d 계정으로, 같은 드림은 더 모시지 않습니다.",
         "저에 대한 퍼날 · 뒷담 등 부정적인 이야기는 전달해 주지 않으셔도 괜찮습니다.",
-        "멘탈이 많이 약한 편이라, 그런 이야기는 듣는 것조차 힘들어합니다.",
+        "멘탈이 많이 약한 편이라, 듣는 것조차 힘들어서 그러니 양해 부탁드립니다.",
       ]},
       { title: "NG", ko: "하지 말아 주세요", style: "ng", items: [
         "페소 따라 하기",
         "허위 사실 유포",
-        "저에게서 영향을 받는 것 — 저를 참고하거나 닮아가지 말아 주세요.",
+        "저에게서 영향 일절 받지 말아주세요.",
       ]},
     ],
   },
@@ -216,8 +216,8 @@ window.SITE = {
       image: "images/prompt-null.jpg",
       parts: [
         ["Appearance", "외형",
-          "boy, bishounen,male, toned male, blunts,pale skin,black hair, short hair,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,-2:: hime cut,slicked back hair,parted hair,red eye,hime cut,long hair::,tall, slender,"],
-        ["Outfit", "의상", "black coat, black harness, white knitwear, black cross earring on right ear, black gloves,"],
+          "boy, bishounen,male, toned male, blunts,pale skin,black hair, short hair,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,black cross earring on right ear,-2:: hime cut,slicked back hair,parted hair,red eye,hime cut,long hair::,tall, slender, tongue piercing(입을 너무 벌리는 경우 빼주세요),"],
+        ["Outfit", "의상", "black coat, black harness, white knitwear, black gloves,"],
       ],
     },
     {
@@ -226,8 +226,8 @@ window.SITE = {
       image: "images/prompt-null-f.jpg",
       parts: [
         ["Appearance", "외형",
-          "girl, bishoujo,pale skin,black hair, hushcut,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,skimpy, skindentation, slender,cleavage, huge breast, -2:: hime cut, long hair, twintail,slicked back hair::,"],
-        ["Outfit", "의상", "black cross earring on right ear,-black coat, black harness, white knitwear ,black gloves,short black pants, black stockings,Black Pantyhose , "],
+          "girl, bishoujo,pale skin,black hair, hushcut,m-shaped hair, 2::heterochromia(black eye, gray eye),:: 1.5::neck scar,wrist scar::,black cross earring on right ear, skimpy, skindentation, slender,cleavage, huge breast, -2:: hime cut, long hair, twintail,slicked back hair::,tongue piercing(입을 너무 벌리는 경우 빼주세요),"],
+        ["Outfit", "의상", "black coat, black harness, white knitwear ,black gloves,short black pants, black stockings,Black Pantyhose , "],
       ],
     },
     {
@@ -269,7 +269,8 @@ window.SITE = {
     ["조선최고 사랑꾼",  ["안죽림"]],
     ["판타스 마고리아",  ["ALL"]],
     ["엔트로피아",  ["ALL"]],
-    ["스타레인",["R","J"]],
+    ["스타레인",["J"]],
+    ["판테온",  ["카타르시스"]],
     ["EVE", ["천유진"]],
     ["트리스탄/프랙쳐",  ["핀셔"]],
     ["언더커버", ["윤희수"]],
@@ -298,9 +299,8 @@ window.SITE = {
      [이미지 위에 쓸 이름, 짧은 설명, 주소, 가로로 긴 배너 이미지(없으면 "")]
      이미지는 images/links/ 폴더에 넣으세요 (가로 4 : 세로 1 권장). */
   links: [
-    ["X", "일상 · 연성", "https://x.com/", "images/links/x.jpg"],
-    ["Postype", "글 · 기록", "https://www.postype.com/", "images/links/postype.jpg"],
-    ["Mail", "연락", "mailto:example@example.com", ""],
+    ["Tistory", "OOC · 로그 백업", "https://dive.tistory.com/", "images/links/postype.jpg"],
+    ["Postype", "배포 사이트 백업", "https://www.postype.com/@foreveryones", ""],
   ],
 
   /* ── 오른쪽 아래 대화창 ─────────────────────────────
@@ -309,7 +309,7 @@ window.SITE = {
      "[사진] 설명" → 사진 첨부처럼,  "[부재중 전화 1통]" 같은 [ ] 줄 → 알림처럼,  "( )" 로 감싼 줄 → 행동 묘사처럼 보여요. */
   chat: {
     title: "Secure channel",
-    dive: { name: "Dive", nick: "미친개(내 거)" },
+    dive: { name: "Dive", nick: "미친개" },
     null: { name: "Null", nick: "내 고양이" },
     logs: [
     [
