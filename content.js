@@ -293,6 +293,7 @@ window.SITE = {
     ["배너 이름 1", "https://example.com/", ""],
     ["Love my keyboard!", "https://luvinfo.me/space", "images/banners/lovemykeyboard.png"],
     ["Night Flight", "https://palely.me/@starl1t/#home", "images/banners/night-flight.png"],
+    ["teddy bear", "https://luvlog.me/nlios", "images/banners/teddybear.png"],
   ],
 
   /* ── LINK : 나의 다른 링크들 ─────────────────────────
